@@ -27,8 +27,7 @@ public class SwitchOperatedTextMenu {
 				// do something...
 				break;
 			case 4:
-				System.out.println("You've chosen item #4");
-				// do something...
+				System.out.println("John altered this");
 				break;
 			case 0:
 				quit = true;
