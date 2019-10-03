@@ -4,7 +4,7 @@ public class SwitchOperatedTextMenu {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		// print menu
-		for (int i = 1; i <= 4; i++)
+		for (int i = 1; i <= 4;i++)
 			System.out.println(i + ". Menu item #" + i);
 		System.out.println("0. Quit");
 		// handle user commands
@@ -15,12 +15,12 @@ public class SwitchOperatedTextMenu {
 			menuItem = in.nextInt();
 			switch (menuItem) {
 			case 1:
-				System.out.println("You've chosen item #1");
-				System.out.println("My name is Robert Aitken.");
-				break;
+			        System.out.println("You've chosen item #1");
+        			System.out.println("My name is Matt.");
+        		break;
 			case 2:
 				System.out.println("You've chosen item #2");
-				// do something...
+				System.out.printLn("my name is Robert Aitken");
 				break;
 			case 3:
 				System.out.println("You've chosen item #3");
