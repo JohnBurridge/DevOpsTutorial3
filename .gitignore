@@ -1,0 +1,5 @@
+*.class			# exclude any file in the directory with .class file extension
+SwitchOperated* 	# exclude any file which starts with SwitchOperated
+./directory            	# exclude the entire directory
+./directory/*.png      	# exclude all .png files in a given directory
+
